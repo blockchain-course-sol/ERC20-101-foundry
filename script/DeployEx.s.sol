@@ -16,7 +16,7 @@ contract DeployEx is Script {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         address deployerAddress = vm.addr(deployerPrivateKey);
 
-        erc20tdAddress = address(0x4aFa9c9e86a249CAaA845261fB3C379e617F9537);
+        erc20tdAddress = address(0);
 
         vm.startBroadcast(deployerPrivateKey);
 
